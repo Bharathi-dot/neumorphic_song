@@ -12,7 +12,7 @@
 * {
   margin: 0;
   padding: 0;
-  color: #424040;
+  color: #001f3f;
 }
 
 
@@ -71,7 +71,7 @@
 
 /* ------ */
 
-.container {
+.container-fluid {
   background-color: #E0E5EC;
   display: flex;
   justify-content: center;
@@ -94,6 +94,7 @@
   box-shadow: 9px 9px 16px rgb(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
   border: none;
   max-width: 530px;
+  color:#001f3f ;
 }
 
 .card-1 {
@@ -114,8 +115,7 @@
 font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
-  color: #424040;
-
+color: #001f3f;
 }
 
 .card-body {
@@ -141,7 +141,6 @@ font-family: "Roboto Condensed", sans-serif;
 /* button */
 .btn {
   background-color: #E0E5EC;
-  color: #424040 !important;
   box-shadow: 9px 9px 16px rgb(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
   border: none;
   z-index: 999;
@@ -154,17 +153,24 @@ font-family: "Roboto Condensed", sans-serif;
 
 .countbtn {
   box-shadow: inset 3px 3px 6px #bebebe, inset -3px -3px 6px #ffffff, 3px 3px 6px rgba(0, 0, 0, 0.2);
-
+}
+.countbtn span{
+  color:#001f3f ;
+  background: #babfc5;
 }
 
 /* Table */
 
 .table tbody tr:nth-child(odd) td {
   background-color: #E0E5EC;
+  color: #001f3f;
+  font-weight: bolder;
 }
 
 .table tbody tr:nth-child(even) td {
   background-color: rgba(var(--bs-emphasis-color-rgb), 0.075);
+  color: #001f3f;
+  font-weight: bolder;
 }
 
 .out-table {
@@ -174,11 +180,13 @@ font-family: "Roboto Condensed", sans-serif;
   width: 100%;
   overflow: auto;
   border-radius: 20px;
+  
 }
 
 .table thead th {
   background-color: #b7b9bd;
-
+color: #001f3f;
+font-weight: bold;
 }
 
 /* Table Customizing the whole scrollbar */
@@ -272,7 +280,6 @@ font-family: "Roboto Condensed", sans-serif;
   transform: translateY(-50%);
   transition: all 0.2s;
   pointer-events: none;
-  color: #424040;
   font-size: 1rem;
   height: 20px;
   padding: 0 0.25rem;
@@ -285,7 +292,6 @@ font-family: "Roboto Condensed", sans-serif;
   top: 1px;
   left: 1.9rem;
   font-size: 0.75rem;
-  color: #292828;
   border-radius: 100px;
   background-color: #E0E5EC;
   padding: 0 20px;
@@ -325,7 +331,6 @@ header {
 ::placeholder {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 900;
-  color: #4d4949;
   text-align: center;
 }
 /*  */
